@@ -108,13 +108,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 .navbar-nav.nav-text-light > li > a {
-  color: #fff;
+  color: #646464;
 }
 .navbar-nav.nav-text-light > li > a:hover {
-  border-bottom-color: #fff;
+  border-bottom-color: #646464;
 }
 .navbar-nav.nav-text-light > li.active > a {
-  border-bottom-color: #fff;
+  border-bottom-color: #646464;
 }
 
 .navbar {
