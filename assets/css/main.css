@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('../img/sliders/Business1.jpg?1394417052');
+  background-image: url('img/sliders/Business1.jpg?1394417052');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -34,9 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 /* ------------------ GENERAL STYLES ------------------ */
 @font-face {
   font-family: "brankic";
-  src: url('../fonts/brankic.eot?1392697956');
-  src: url('../fonts/brankic.eot?&1392697956#iefix') format('embedded-opentype'), url('../fonts/brankic.svg?1392697956') format('svg'), url('../fonts/brankic.ttf?1392697956') format('truetype'), url('../fonts/brankic.woff?1392697956') format('woff');
+  src: url('fonts/brankic.eot?1392697956');
+  src: url('fonts/brankic.eot?&1392697956#iefix') format('embedded-opentype'), url('fonts/brankic.svg?1392697956') format('svg'), url('../fonts/brankic.ttf?1392697956') format('truetype'), url('../fonts/brankic.woff?1392697956') format('woff');
 }
+/* --------------------- */
+/* YAMBUU
+/* --------------------- */
+.yambuu {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-color: blue;
+}
+
 /* --------------------- */
 /* NAVIGATION BAR
 /* --------------------- */
@@ -205,33 +214,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background-color: #ffae3f;
-  border-color: #ffae3f;
+  background-color: #00aeef;
+  border-color: #00aeef;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #ffae3f;
-  border-color: #ffa325;
+  background-color: #00aeef;
+  border-color: #199CD3;
 }
 
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #ffc472;
-  border-color: #ffae3f;
+  background-color: #00aeef;
+  border-color: #199CD3;
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active,
 .btn-primary[disabled]:hover,
 .btn-primary[disabled]:focus,
 .btn-primary[disabled]:active,
 .btn-primary[disabled].active {
-  background-color: #ffc472;
-  border-color: #ffae3f;
+  background-color: #00aeef;
+  border-color: #199CD3;
 }
 
 /* --------------------- */
 /* LINKS
 /* --------------------- */
 a {
-  color: #ffae3f;
+  color: #00aeef;
 }
 a:hover, a:focus {
   color: #ffc472;
@@ -262,7 +271,7 @@ a:hover, a:focus {
 }
 .section-heading h2 {
   font-size: 3em;
-  color: #ffae3f;
+  color: #00aeef;
 }
 .section-heading p {
   font-size: 1.5em;
@@ -282,7 +291,7 @@ a:hover, a:focus {
   color: #c2c2c2;
 }
 .section-content .sub-section {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 /* --------------------- */
@@ -5397,7 +5406,96 @@ img.mfp-img {
 .about {
   position: relative;
   text-align: center;
+  padding-bottom: 0px;
+  background-size: cover;
 }
+
+#about p {
+  font-size: 1em;
+  text-align: justify
+}
+
+#about h2 + p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* --------------------- */
+/* YAMBUU
+/* --------------------- */
+#yambuu {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 35px;
+  background-image: url('../img/empre12.jpg?1394021998');
+  background-size: cover;
+}
+#yambuu h2 {
+  color: #fff;
+  font-size: 2em;
+}
+#yambuu p {
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  #yambuu {
+    background-image: url('../img/code_bg.png?1394021998');
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* --------------------- */
+/* ITPLAYS
+/* --------------------- */
+#itplays {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-image: url('../img/empre32.jpg?1394021998');
+  background-size: cover;
+}
+#itplays h2 {
+  color: #fff;
+  font-size: 2em;
+}
+#itplays p {
+  color: white;
+}
+@media screen and (max-width: 480px) {
+  #itplays {
+     background-image: url('../img/empre323.jpg?1394021998');
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* --------------------- */
+/* JUMPERJOB
+/* --------------------- */
+#jumperjob {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-image: url('../img/empre22.jpg?1394021998');
+  background-size: cover;
+}
+#jumperjob h2 {
+  color: #2E4893;
+  font-size: 2em;
+}
+#jumperjob p {
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  #jumperjob {
+    background-image: url('../img/empre223.jpg?1394021998');
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 
 /* --------------------- */
 /* SOCIAL NETWORK
@@ -5619,6 +5717,32 @@ img.mfp-img {
 /* --------------------- */
 /* WORKS GRID
 /* --------------------- */
+
+#misemprendimientos {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+#misemprendimientos h2{
+  color: #00aeef;
+  font-size: 3em;
+}
+#misemprendimientos p{
+    size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+  #misemprendimientos h2 {
+    color: #00aeef;
+    font-size: 2em;
+  }
+  p {
+    size: 1em;
+  }
+}
+
 #works {
   padding-bottom: 0;
 }
@@ -5644,7 +5768,7 @@ img.mfp-img {
 .work-item-filters li a:hover, .work-item-filters li a.active {
   text-decoration: none;
   outline: none;
-  background-color: #ffae3f;
+  background-color: #00aeef;
   color: #fff;
 }
 
@@ -5902,7 +6026,7 @@ img.mfp-img {
 /* CONTACT INFO
 /* --------------------- */
 .contact-info li {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .contact-info h3, .contact-info i {
   color: #646464;
@@ -5994,12 +6118,19 @@ img.mfp-img {
 /* ------------------ TWITTER STREAM ------------------ */
 .twitter-stream {
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #00aeef;
+  padding-bottom: 50px;
 }
+.twitter-stream p{
+  padding-left: 80px;
+  color: white;
+}
+
 @media screen and (max-width: 480px) {
   .twitter-stream {
     padding: 25px 0;
+    padding-bottom: 50px;
   }
 }
 .twitter-stream .twitter-icon {

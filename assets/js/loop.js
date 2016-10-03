@@ -75,9 +75,9 @@ jQuery( function($){
 		$.supersized({
 				
 			// Functionality		
-			autoplay: 1,				// Slideshow starts playing automatically
-			slide_interval: 3000,		// Length between transitions
-			transition: 1, 				// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+			autoplay: 0,				// Slideshow starts playing automatically
+			slide_interval: 1000,		// Length between transitions
+			transition: 0, 				// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 			transition_speed: 1000,		// Speed of transition
 
 			// Components
